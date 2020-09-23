@@ -7,4 +7,8 @@
                 <p>Written by:  {{pitch.user.username}} <a href="/pitch/{{pitch.id}}" class="btn btn-primary pull-right">Read</a> </p>
             </div>
         </div>
-    
+    {%endfor%}
+{%endmacro%}
+
+{%macro displayComments(comments_list)%}
+
